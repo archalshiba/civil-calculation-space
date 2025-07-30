@@ -17,7 +17,6 @@
     "chart.js": "4.4.3",
     "react-chartjs-2": "5.2.0",
     "react-hot-toast": "2.4.1",
-    "dxf-writer-js": "1.16.0",
     "@google/genai": "latest"
   },
   "devDependencies": {

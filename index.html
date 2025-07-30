@@ -6,52 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Civil Calculation World</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              // The old color palette is now mapped to CSS variables for theming.
-              'dark': 'var(--color-surface)',
-              'secondary': 'var(--color-surface-secondary)',
-              'light': 'var(--color-text-primary)',
-              'primary': 'var(--color-primary)',
-              'accent': 'var(--color-accent)',
-              'danger': 'var(--color-danger)',
-
-              // New semantic color names for clarity in components
-              'background': 'var(--color-background)',
-              'surface': 'var(--color-surface)',
-              'surface-secondary': 'var(--color-surface-secondary)',
-              'surface-tertiary': 'var(--color-surface-tertiary)',
-              'border': 'var(--color-border)',
-              'text-primary': 'var(--color-text-primary)',
-              'text-secondary': 'var(--color-text-secondary)',
-            },
-            animation: {
-              'fade-in': 'fadeIn 0.5s ease-in-out',
-              'fade-in-up': 'fadeInUp 0.5s ease-in-out',
-              'spin': 'spin 1s linear infinite',
-            },
-            keyframes: {
-              fadeIn: {
-                '0%': { opacity: '0' },
-                '100%': { opacity: '1' },
-              },
-              fadeInUp: {
-                '0%': { opacity: '0', transform: 'translateY(20px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-              spin: {
-                'from': { transform: 'rotate(0deg)' },
-                'to': { transform: 'rotate(360deg)' },
-              },
-            },
-          }
-        }
-      }
-    </script>
+    <!-- Tailwind CSS is now built with PostCSS and imported via index.css -->
     <style>
       :root {
         /* Dark Theme (Default) */
@@ -113,30 +68,11 @@
         background: var(--color-scrollbar-thumb-hover);
       }
     </style>
-    <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@18.2.0",
-    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
-    "react-dom": "https://esm.sh/react-dom@18.2.0",
-    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-    "react-router-dom": "https://esm.sh/react-router-dom@6.22.0",
-    "jspdf": "https://esm.sh/jspdf@2.5.1",
-    "html2canvas": "https://esm.sh/html2canvas@1.4.1",
-    "chart.js": "https://esm.sh/chart.js@4.4.3",
-    "react-chartjs-2": "https://esm.sh/react-chartjs-2@5.2.0",
-    "react-hot-toast": "https://esm.sh/react-hot-toast@2.4.1",
-    "dxf-writer-js": "https://esm.sh/dxf-writer-js@1.16.0",
-    "@google/genai": "https://esm.sh/@google/genai",
-    "react/": "https://esm.sh/react@^19.1.1/",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
-  }
-}
-</script>
+    <!-- Import maps removed for Vite/npm setup -->
   <link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- Vite injects the correct script automatically -->
   </body>
 </html>
