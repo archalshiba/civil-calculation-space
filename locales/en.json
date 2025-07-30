@@ -1,0 +1,603 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "calculators": "Calculators",
+    "projects": "Projects",
+    "reports": "Reports",
+    "help": "Help"
+  },
+  "header": {
+    "appName": "Civil Calculation World",
+    "openSidebar": "Open sidebar",
+    "openSettings": "Open Settings",
+    "openProfile": "Open User Profile"
+  },
+  "sidebar": {
+    "appName": "CivilCalc World",
+    "copyright": "© 2024 CivilCalc World",
+    "version": "1.0.0"
+  },
+  "home": {
+    "title": "Welcome to Civil Calculation World",
+    "description": "Your professional toolkit for accurate building-material quantity and structural reinforcement specifications. All data is processed locally, ensuring privacy and offline capability.",
+    "features": {
+      "calculators": {
+        "title": "Calculators",
+        "description": "Access a comprehensive suite of calculators for columns, beams, slabs, foundations, and more. Each tool is designed for precision and adherence to code standards."
+      },
+      "projects": {
+        "title": "Projects",
+        "description": "Organize your calculations into projects. Save, retrieve, and manage all structural element data for a complete project overview and material takeoff."
+      },
+      "reports": {
+        "title": "Reports",
+        "description": "Generate detailed reports from your project data. Create material schedules, reinforcement lists, and summary documents for submission and review."
+      }
+    }
+  },
+  "calculators": {
+    "pageTitle": "Structural Calculators",
+    "pageSubtitle": "Select a structural element to begin calculations.",
+    "sections": {
+      "columns": "Columns",
+      "beams": "Beams",
+      "slabs": "Slabs",
+      "foundations": "Foundations",
+      "walls": "Walls",
+      "diaphragms": "Diaphragms",
+      "brackets": "Brackets & Corbels",
+      "joints": "Joints & Connections"
+    },
+    "columns": {
+      "rect": {
+        "title": "Rectangular/Square Column",
+        "description": "Calculate materials for rectangular or square columns with tied reinforcement."
+      },
+      "circ": {
+        "title": "Circular Column",
+        "description": "Calculate materials for circular columns with tied or spiral reinforcement."
+      },
+      "other": {
+        "title": "Other Column Shapes",
+        "description": "Calculators for L-shaped, T-shaped, or composite columns coming soon."
+      }
+    },
+    "beams": {
+      "rect": {
+        "title": "Rectangular Beam",
+        "description": "Calculate materials for standard rectangular beams with top and bottom reinforcement."
+      },
+      "t": {
+        "title": "T-Beam",
+        "description": "Calculate materials for T-beams, accounting for effective flange width."
+      },
+      "cantilever": {
+        "title": "Cantilever Beam",
+        "description": "Calculator for cantilever beams and their specific reinforcement needs coming soon."
+      }
+    },
+    "slabs": {
+      "oneway": {
+        "title": "One-Way Slab",
+        "description": "Calculate materials for slabs supported on two sides, with main and distribution steel."
+      },
+      "twoway": {
+        "title": "Two-Way Slab",
+        "description": "Calculate materials for slabs supported on four sides, reinforced in two directions."
+      },
+      "flat": {
+        "title": "Flat Slab / Waffle Slab",
+        "description": "Advanced slab system calculators including drop panels and waffle slabs are coming soon."
+      }
+    },
+    "foundations": {
+      "iso": {
+        "title": "Isolated Footing",
+        "description": "Calculate materials for single-column isolated pad footings."
+      },
+      "comb": {
+        "title": "Combined Footing",
+        "description": "Calculate materials for footings supporting two or more columns."
+      },
+      "strip": {
+        "title": "Strip Footing",
+        "description": "Calculate materials for continuous footings supporting a load-bearing wall."
+      },
+      "mat": {
+        "title": "Mat/Raft Foundation",
+        "description": "Calculator for large mat or raft foundations is under development."
+      },
+      "pile": {
+        "title": "Pile Cap Foundation",
+        "description": "Calculate materials for a pile cap transferring column loads to a group of piles."
+      }
+    },
+    "walls": {
+      "rect": {
+        "title": "Rectangular Wall",
+        "description": "Calculate materials for standard structural or non-structural walls."
+      },
+      "retaining": {
+        "title": "Retaining Wall",
+        "description": "Perform stability checks and calculate materials for cantilever retaining walls."
+      },
+      "circ": {
+        "title": "Circular Wall",
+        "description": "Calculator for circular walls, such as tanks or silos, coming soon."
+      },
+      "shear": {
+        "title": "Shear Wall",
+        "description": "Detailed shear wall design calculator, including boundary elements, is planned."
+      }
+    },
+    "diaphragms": {
+      "diaphragm": {
+        "title": "Floor & Roof Diaphragms",
+        "description": "Calculate reinforcement for chords, collectors, and shrinkage in diaphragms."
+      }
+    },
+    "brackets": {
+      "corbel": {
+        "title": "Bracket & Corbel Design",
+        "description": "Calculate required reinforcement for brackets and corbels using strut-and-tie."
+      }
+    },
+    "joints": {
+      "beamCol": {
+        "title": "Beam-Column Joint",
+        "description": "Check shear strength and basic detailing for beam-column joints."
+      },
+      "anchorage": {
+        "title": "Anchorage to Concrete",
+        "description": "Check anchorage capacity based on ACI 318 provisions for concrete breakout."
+      }
+    }
+  },
+  "buttons": {
+    "openCalculator": "Open Calculator",
+    "calculate": "Calculate",
+    "clear": "Clear Inputs",
+    "newCalculation": "New Calculation",
+    "addToProject": "Add to Project",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "import": "Import",
+    "export": "Export",
+    "viewDetails": "View Details",
+    "delete": "Delete",
+    "print": "Print",
+    "exportPDF": "Export PDF",
+    "exportDXF": "Export DXF",
+    "goTo": "Go to {{feature}}",
+    "confirm": "Confirm",
+    "aiAssistant": "AI Assistant"
+  },
+  "tabs": {
+    "dimensions": "Dimensions",
+    "materials": "Materials",
+    "longitudinalReinf": "Longitudinal Reinf.",
+    "transverseReinf": "Transverse Reinf.",
+    "transverseStirrups": "Transverse / Stirrups",
+    "formwork": "Formwork",
+    "geometry": "Geometry",
+    "reinforcement": "Reinforcement",
+    "reinfDetails": "Reinforcement Details",
+    "loadsAnalysis": "Loads & Analysis",
+    "geometryAndMaterials": "Geometry & Materials",
+    "geometryAndLoads": "Geometry & Loads",
+    "loadsGeometry": "Loads & Geometry",
+    "anchorDetails": "Anchor Details",
+    "jointDetails": "Joint Details",
+    "materialSummary": "Material Summary",
+    "reinforcementSchedule": "Reinforcement Schedule",
+    "general": "General",
+    "soilAndLoads": "Soil & Loads"
+  },
+  "inputs": {
+    "sections": {
+      "dimensions": "Dimensions",
+      "materials": "Material Properties",
+      "longitudinalMain": "Longitudinal Main Reinforcement",
+      "splicing": "Splicing",
+      "specialConditions": "Special Conditions",
+      "transverseTiesSpirals": "Transverse Ties / Spirals",
+      "formworkCalc": "Formwork Calculation",
+      "beamGeometry": "Beam Geometry",
+      "topReinf": "Top Reinforcement (Negative Moment)",
+      "bottomReinf": "Bottom Reinforcement (Positive Moment)",
+      "detailsAndConditions": "Details & Conditions",
+      "stirrups": "Stirrups (Shear Reinforcement)",
+      "loadsAnalysis": "Loads & Analysis",
+      "slabGeometry": "Slab Geometry",
+      "mainReinf": "Main Reinforcement",
+      "tempReinf": "Temperature & Shrinkage Reinforcement",
+      "details": "Details",
+      "footingGeometry": "Footing Geometry",
+      "pileCapGeometry": "Pile Cap Geometry",
+      "pileConfiguration": "Pile Configuration",
+      "materialsSoil": "Materials & Soil",
+      "topReinfOptional": "Top Reinforcement (If required)",
+      "columnDowels": "Column Dowels",
+      "wallGeometry": "Wall Geometry",
+      "reinfDetails": "Reinforcement Details",
+      "verticalReinf": "Vertical Reinforcement",
+      "horizontalReinf": "Horizontal Reinforcement",
+      "stemReinf": "Stem Reinforcement",
+      "footingReinf": "Footing Reinforcement",
+      "geometryAndMaterials": "Geometry & Materials",
+      "boundaryAndCollectors": "Boundary & Collectors",
+      "geometryLoadsMaterials": "Geometry, Loads & Materials",
+      "mainTensionReinf": "Main Tension Reinforcement (As,main)",
+      "hangerReinf": "Hanger Reinforcement (Ah)",
+      "checksAndOptions": "Checks & Options",
+      "jointDetails": "Joint Details",
+      "jointConfinementReinf": "Joint Confinement Reinforcement",
+      "options": "Options",
+      "anchorSpec": "Anchor Specification",
+      "loads": "Applied Factored Loads",
+      "geometry": "Anchor Geometry"
+    },
+    "labels": {
+      "width": "Width (b)",
+      "depth": "Depth (h)",
+      "height": "Height (H)",
+      "concreteUnitWeight": "Concrete Unit Weight",
+      "concreteStrength": "Concrete Strength (f'c)",
+      "exposureClass": "Exposure Class",
+      "barSize": "Bar Size",
+      "barCount": "Number of Bars",
+      "yieldStrength": "Steel Yield Strength (fy)",
+      "developmentLength": "Development Length (ld)",
+      "lapSpliceLength": "Lap Splice Length",
+      "spliceType": "Splice Type",
+      "spliceLocation": "Splice Location",
+      "staggeringPattern": "Staggering Pattern",
+      "offsetBentBars": "Use Offset Bent Bars",
+      "bendHeight": "Bend Height",
+      "slope": "Slope (1:X)",
+      "bundledBars": "Use Bundled Bars",
+      "barsPerBundle": "Bars per Bundle",
+      "equivalentDiameter": "Equivalent Diameter",
+      "reinfType": "Reinforcement Type",
+      "tieHoopDiameter": "Tie/Hoop Diameter",
+      "spacing": "Spacing",
+      "configuration": "Configuration",
+      "hookAngle": "Hook Angle",
+      "provideSeismicHooks": "Provide Seismic Hooks",
+      "confinementNotes": "Confinement Notes",
+      "wastageAdjustment": "Wastage Adjustment",
+      "componentChecklist": "Component Checklist",
+      "sidePanels": "Side Panels",
+      "joists": "Joists/Studs",
+      "shoring": "Shoring/Bracing",
+      "diameter": "Diameter (D)",
+      "spiralDiameter": "Spiral Bar Diameter",
+      "tieDiameter": "Tie Bar Diameter",
+      "pitch": "Pitch",
+      "webWidth": "Web Width (bw)",
+      "flangeWidth": "Flange Width (bf)",
+      "flangeThickness": "Flange Thickness (hf)",
+      "span": "Span (L)",
+      "clearSpacing": "Clear Bar Spacing",
+      "skinReinf": "Provide Skin Reinforcement (>900mm depth)",
+      "integrityReinf": "Provide Integrity Reinforcement",
+      "stirrupDiameter": "Stirrup Diameter",
+      "numLegs": "Number of Legs",
+      "hookDetails": "Hook Details",
+      "factoredMoment": "Factored Moment (Mu)",
+      "factoredShear": "Factored Shear (Vu)",
+      "factoredTorsion": "Factored Torsion (Tu)",
+      "thickness": "Thickness (h or t)",
+      "length": "Length (L)",
+      "concreteCover": "Concrete Cover",
+      "longDimension": "Long Dimension (L)",
+      "shortDimension": "Short Dimension (S)",
+      "barSizeBothWays": "Bar Size (Both Ways)",
+      "dowelBarSize": "Dowel Bar Size",
+      "dowelBarCount": "Number of Dowel Bars",
+      "embedmentLength": "Embedment Length",
+      "soilBearingPressure": "Allowable Soil Bearing Pressure",
+      "unbracedHeight": "Unbraced Height (H)",
+      "reinfLayers": "Reinforcement Layers",
+      "stemHeight": "Stem Height",
+      "stemThicknessTop": "Stem Thickness (Top)",
+      "stemThicknessBottom": "Stem Thickness (Bottom)",
+      "footingThickness": "Footing Thickness",
+      "toeLength": "Toe Length",
+      "heelLength": "Heel Length",
+      "soilUnitWeight": "Soil Unit Weight",
+      "soilFrictionAngle": "Soil Friction Angle (φ)",
+      "surchargeLoad": "Surcharge Load",
+      "verticalBarSize": "Vertical Bar Size",
+      "horizontalBarSize": "Horizontal Bar Size",
+      "bottomBarSize": "Bottom Bar Size",
+      "topBarSize": "Top Bar Size",
+      "modelingMethod": "Modeling Method",
+      "lateralLoad": "Lateral Load (Seismic/Wind)",
+      "collectorBarSize": "Collector Bar Size",
+      "collectorBarCount": "No. of Collector Bars",
+      "chordBarSize": "Chord Bar Size",
+      "chordBarCount": "No. of Chord Bars",
+      "spacingEachWay": "Spacing (Each Way)",
+      "effectiveDepth": "Effective Depth (d)",
+      "shearSpan": "Shear Span (av)",
+      "factoredLoad": "Factored Load (Vu)",
+      "bracketWidth": "Bracket Width (b)",
+      "requiredSteelAreaAsc": "Required Steel Area (As,main)",
+      "provideBarSize": "Provide Bar Size",
+      "requiredSteelAreaAh": "Required Steel Area (Ah)",
+      "provideStirrupSize": "Provide Stirrup Size",
+      "numStirrupLegs": "Number of Stirrup Legs",
+      "useStrutAndTie": "Use Strut-and-Tie Model",
+      "columnDepth": "Column Depth (h_col)",
+      "beamDepth": "Beam Depth (h_beam)",
+      "factoredShearOnJoint": "Factored Shear on Joint (Vu)",
+      "effectiveJointWidth": "Effective Joint Width (bj)",
+      "tieBarSize": "Tie Bar Size",
+      "jointConfinementCondition": "Joint Confinement Condition",
+      "accountForAxialLoad": "Account for Axial Load",
+      "anchorType": "Anchor Type",
+      "anchorSize": "Anchor Size",
+      "seismicDesignRequired": "Seismic Design Required",
+      "corrosionProtection": "Corrosion Protection Required",
+      "factoredTension": "Factored Tension (Nu)",
+      "embedmentDepth": "Embedment Depth (hef)",
+      "edgeDistance": "Edge Distance (ca1)",
+      "anchorSpacing": "Anchor Spacing (s)",
+      "pileCount": "Number of Piles",
+      "pileDiameter": "Pile Diameter",
+      "pileSpacing": "Pile Spacing (Center-to-Center)",
+      "capEdgeDistance": "Cap Edge Distance"
+    },
+    "options": {
+      "tied": "Tied",
+      "spiral": "Spiral",
+      "rectangular": "Rectangular",
+      "circular": "Circular",
+      "overlappingHoops": "Overlapping Hoops",
+      "multiLeg": "Multi-Leg",
+      "tiedHoop": "Tied Hoop",
+      "circularHoop": "Circular Hoop",
+      "closed": "Closed",
+      "open": "Open",
+      "seismicHook": "135° Seismic Hook",
+      "singleLayer": "Single Layer",
+      "doubleLayer": "Double Layer",
+      "flexible": "Flexible",
+      "rigid": "Rigid",
+      "semi-rigid": "Semi-Rigid",
+      "type1": "Type 1 (Standard)",
+      "type2": "Type 2 (Seismic)",
+      "castIn": "Cast-in Anchor",
+      "adhesive": "Adhesive Anchor",
+      "mechanical": "Mechanical Anchor"
+    },
+    "loadsAnalysisHint": "This section is for informational purposes. Load calculation is not yet implemented."
+  },
+  "results": {
+    "title": "Calculation Results",
+    "autoFormworkArea": "Calculated Formwork Area",
+    "autoFormworkAreaBothFaces": "Calculated Formwork Area (Both Faces)",
+    "autoSoffitArea": "Calculated Soffit Area",
+    "autoEdgeFormworkArea": "Calculated Edge Formwork Area"
+  },
+  "resultsKeys": {
+    "concreteVolume": "Concrete Volume",
+    "concreteWeight": "Concrete Weight",
+    "formworkArea": "Formwork Area",
+    "totalSteelWeight": "Total Steel Weight",
+    "longitudinalSteelWeight": "Longitudinal Steel Weight",
+    "transverseSteelWeight": "Transverse Steel Weight",
+    "topSteelWeight": "Top Steel Weight",
+    "bottomSteelWeight": "Bottom Steel Weight",
+    "stirrupSteelWeight": "Stirrup Steel Weight",
+    "mainSteelWeight": "Main Steel Weight",
+    "tempSteelWeight": "Temp. Steel Weight",
+    "shortDirSteelWeight": "Short Dir. Steel Weight",
+    "longDirSteelWeight": "Long Dir. Steel Weight",
+    "topReinforcementWeight": "Top Reinf. Weight",
+    "bottomReinforcementWeight": "Bottom Reinf. Weight",
+    "dowelWeight": "Dowel Weight",
+    "verticalSteelWeight": "Vertical Steel Weight",
+    "horizontalSteelWeight": "Horizontal Steel Weight",
+    "collectorSteelWeight": "Collector Steel Weight",
+    "chordSteelWeight": "Chord Steel Weight",
+    "shrinkageSteelWeight": "Shrinkage Steel Weight",
+    "mainSteelArea": "Main Steel Area",
+    "hangerSteelArea": "Hanger Steel Area",
+    "bearingPlateArea": "Bearing Plate Area",
+    "beamColumnDepthRatio": "Beam/Column Depth Ratio",
+    "jointShearStrength": "Joint Shear Strength (φVn)",
+    "tensionCapacity": "Tension Capacity (φNn)",
+    "shearCapacity": "Shear Capacity (φVn)",
+    "combinedCheck": "Combined Interaction Check",
+    "factorOfSafetyOverturning": "FoS Overturning",
+    "factorOfSafetySliding": "FoS Sliding",
+    "maxBearingPressure": "Max Bearing Pressure (q_max)",
+    "minBearingPressure": "Min Bearing Pressure (q_min)",
+    "stemConcreteVolume": "Stem Concrete Volume",
+    "footingConcreteVolume": "Footing Concrete Volume",
+    "stemSteelWeight": "Stem Steel Weight",
+    "footingSteelWeight": "Footing Steel Weight"
+  },
+  "modals": {
+    "titles": {
+      "unavailable": "Calculator Unavailable",
+      "settings": "Global Settings"
+    }
+  },
+  "placeholder": {
+    "underConstruction": "Under Construction",
+    "inDevelopment": "This calculator is currently in development and will be available in a future update.",
+    "checkBack": "Please check back soon!"
+  },
+  "prompts": {
+    "enterDescriptionTitle": "Save Calculation",
+    "enterDescriptionMessage": "Enter a description for this {{type}} calculation:",
+    "descriptionPlaceholder": "e.g., Ground Floor Column C1",
+    "confirmDeleteTitle": "Confirm Deletion",
+    "confirmDeleteMessage": "Are you sure you want to delete '{{item}}'? This action cannot be undone.",
+    "confirmImportTitle": "Confirm Project Import",
+    "confirmImportMessage": "This will overwrite all currently saved calculations in this project. Are you sure you want to proceed?"
+  },
+  "alerts": {
+    "calculationSaved": "Calculation '{{description}}' saved.",
+    "settingsSaved": "Settings saved successfully!",
+    "noDataToExport": "There is no project data to export.",
+    "importSuccess": "{{count}} items imported successfully.",
+    "importFailed": "Import failed: {{error}}",
+    "fileReadError": "Error reading the selected file.",
+    "itemDeleted": "Item deleted successfully."
+  },
+  "errors": {
+    "positiveNumber": "Must be a positive number.",
+    "nonNegative": "Must be a non-negative number.",
+    "minBars": "Minimum {{count}} bars required.",
+    "avdRatio": "av/d ratio must be <= 1.0 for this method.",
+    "invalidProjectFile": "Invalid project file format.",
+    "frictionAngleRange": "Must be between 0 and 90.",
+    "calculationFailed": "Calculation failed. Please check your inputs and try again.",
+    "flangeWiderThanWeb": "Flange width must be greater than or equal to web width.",
+    "flangeThickerThanDepth": "Flange thickness cannot be greater than the total beam depth.",
+    "maxTieSpacing": "Spacing exceeds ACI max ({{max}} mm).",
+    "minSpiralBars": "Minimum 6 bars required for spiral reinforcement.",
+    "spiralPitchRange": "ACI requires spiral pitch between 25mm (1 in) and 75mm (3 in).",
+    "stemTaper": "Top thickness cannot be greater than bottom thickness.",
+    "pileConfig": "Pile configuration dimensions do not fit within the cap dimensions."
+  },
+  "projects": {
+    "pageTitle": "Saved Projects",
+    "pageSubtitle": "Manage and review all your saved calculations for the current project.",
+    "noCalculations": "No Saved Calculations",
+    "noCalculationsHint": "Start by using a calculator and adding the results to your project.",
+    "savedOn": "Saved on: {{date}}",
+    "calculatedOn": "Calculated on: {{date}}",
+    "keyResults": "Key Results"
+  },
+  "reports": {
+    "pageTitle": "Project Reports",
+    "noDataTitle": "No Data to Report",
+    "noDataSubtitle": "Save some calculations to your project to generate reports.",
+    "projectTotals": "Project Totals",
+    "totalConcreteVolume": "Total Concrete Volume",
+    "totalFormworkArea": "Total Formwork Area",
+    "totalSteelWeight": "Total Steel Weight",
+    "steelByBarSize": "Steel Weight by Bar Size",
+    "stabilityChecks": "Stability Checks",
+    "materialQuantities": "Material Quantities (per meter)",
+    "headers": {
+      "barSize": "Bar Size",
+      "totalWeightKg": "Total Weight (kg)",
+      "mark": "Mark",
+      "size": "Size",
+      "shape": "Shape",
+      "quantity": "Quantity",
+      "lengthM": "Length (m)",
+      "totalLengthM": "Total Length (m)"
+    },
+    "reinforcementSchedule": "Reinforcement Schedule",
+    "detailsSheetTitle": "Detailed Calculation Sheet",
+    "inputParameters": "Input Parameters",
+    "calculationResults": "Calculation Results",
+    "calculationSteps": "Calculation Steps",
+    "footerDisclaimer": "This calculation sheet is for estimation and preliminary design purposes. All calculations should be verified by a qualified professional engineer."
+  },
+  "charts": {
+    "title": "Project Data Visualization",
+    "concreteTitle": "Concrete Volume Distribution by Element Type",
+    "steelTitle": "Steel Weight Distribution by Bar Size",
+    "concreteVolumeLabel": "Concrete Volume (m³)",
+    "steelWeightLabel": "Steel Weight (kg)"
+  },
+  "common": {
+    "schematicView": "Schematic View",
+    "tieConfiguration": "Tie Configuration",
+    "stirrupConfiguration": "Stirrup Configuration",
+    "reinfConfiguration": "Reinforcement Configuration",
+    "strutAndTie": "Strut-and-Tie Model",
+    "schematic": "Schematic",
+    "comingSoon": "Coming Soon"
+  },
+  "placeholders": {
+    "example": "e.g., {{value}}",
+    "confinementNotes": "e.g., confinement required at beam-column joint"
+  },
+  "tooltips": {
+    "developmentLength": "ACI 318-19, Cl 25.4 specifies the calculation for the development length of reinforcement, which is the minimum length required to anchor a bar in concrete.",
+    "tieSpacing": "ACI 318-19, Cl 25.7.2 specifies maximum spacing for transverse reinforcement (ties) in columns to ensure confinement and prevent buckling of longitudinal bars.",
+    "stirrupSpacing": "ACI 318-19, Cl 9.7.6.2 specifies maximum spacing for shear reinforcement (stirrups) in beams, typically the lesser of d/2 or 600mm (24 in).",
+    "minClearSpacing": "ACI 318-19, Cl 25.2 requires a minimum clear spacing between parallel bars to ensure proper concrete consolidation. This is typically the greater of the bar diameter, 25mm (1 in), or (4/3) * max aggregate size.",
+    "concreteCover": "ACI 318-19, Table 20.5.1.3.1 specifies minimum concrete cover for protection of reinforcement against corrosion and fire, based on exposure conditions and member type.",
+    "soilBearingPressure": "The allowable soil bearing pressure is a key geotechnical parameter obtained from a soil investigation report. It represents the maximum pressure the soil can safely support.",
+    "soilFrictionAngle": "The internal friction angle (φ) of soil is a measure of its shear strength. It is a critical parameter for calculating lateral earth pressure and retaining wall stability.",
+    "surchargeLoad": "Uniform load on soil surface behind the wall.",
+    "embedmentDepth": "Effective embedment depth (hef) is critical for anchor capacity. ACI 318-19, Chapter 17 provides requirements to prevent concrete breakout failure.",
+    "edgeDistance": "Minimum concrete edge distance (ca1) is required to prevent side-face blowout and pryout failure for anchors loaded in shear, as specified in ACI 318-19, Chapter 17.",
+    "capEdgeDistance": "The distance from the center of the outermost pile to the edge of the pile cap."
+  },
+  "settings": {
+    "projectInfo": "Project Information",
+    "projectName": "Project Name",
+    "projectNumber": "Project Number",
+    "preferences": "Preferences",
+    "unitSystem": "Unit System",
+    "metric": "Metric (mm, m, kg, MPa)",
+    "imperial": "Imperial (in, ft, lb, psi)",
+    "theme": "Theme",
+    "appTheme": "Application Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "language": "Language",
+    "appLanguage": "Application Language"
+  },
+  "emptyStates": {
+    "callToAction": "Start a New Calculation"
+  },
+  "aiAssistant": {
+    "title": "AI Assistant",
+    "description": "Describe the column parameters in natural language. The AI will parse your text and pre-fill the form.",
+    "buttonLabel": "AI Assistant",
+    "placeholderRectColumn": "e.g., a 450 by 600 mm column that is 3.5 meters tall with 10 rebars",
+    "placeholderCircColumn": "e.g., a circular column with a 500mm diameter, 3m high, with 6 bars",
+    "parseButton": "Parse and Fill",
+    "parsing": "Parsing...",
+    "success": "Inputs successfully parsed and updated.",
+    "failure": "Could not get a valid response from the AI. Please check your prompt or API key and try again."
+  },
+  "help": {
+    "pageTitle": "Help & FAQs",
+    "pageSubtitle": "Find answers to common questions about Civil Calculation World, or ask our AI assistant.",
+    "faqTitle": "Frequently Asked Questions",
+    "assistant": {
+      "title": "AI Help Assistant",
+      "placeholder": "Ask a short question about the app or civil engineering...",
+      "sendButton": "Send"
+    },
+    "faqs": [
+      {
+        "question": "Is my data private?",
+        "answer": "Yes. All data, including your saved projects and calculations, is stored exclusively in your browser's local storage. No information is ever sent to a server. This ensures complete privacy and allows the app to work fully offline."
+      },
+      {
+        "question": "How do I switch between Metric and Imperial units?",
+        "answer": "You can change the default unit system at any time by clicking the Settings icon in the top-right corner. The new unit system will be applied as the default for all new calculations. Note that individual inputs within a calculator can also have their units changed on-the-fly."
+      },
+      {
+        "question": "How do I save a calculation?",
+        "answer": "After performing a calculation, the results panel will appear. Click the 'Add to Project' button. You will be prompted to enter a unique description for the calculation (e.g., 'Ground Floor Column C1'). Once saved, it will appear on the 'Projects' page."
+      },
+      {
+        "question": "Can I share my project with a colleague?",
+        "answer": "Yes. Go to the 'Projects' page and click the 'Export Project' button. This will download a single JSON file containing all your saved calculations. You can send this file to a colleague, who can then use the 'Import Project' button on their instance of the app to load your entire project."
+      }
+    ],
+    "disclaimer": {
+      "title": "Code Basis & Disclaimer",
+      "codeVersion": "All structural calculations and design checks within this application are based on the principles outlined in **ACI 318-19 (Building Code Requirements for Structural Concrete)** unless otherwise noted.",
+      "purpose": "This application is intended for **preliminary design and educational purposes only**. It serves as a tool for quick estimation and verification of member sizes and material quantities.",
+      "verification": "**All results must be independently verified and approved by a qualified professional engineer** before being used for construction or any other official purpose. The developers assume no liability for the use or interpretation of the results provided."
+    }
+  }
+}
