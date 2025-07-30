@@ -1,10 +1,10 @@
 
 
-# Civil Calculation World - Professional Development Plan
+# Civil Calculation Space - Professional Development Plan
 
 ## 1. Project Overview
 
-**Civil Calculation World** is a professional-grade engineering application designed for civil and structural engineers. It provides a comprehensive suite of tools for calculating building material quantities and specifying structural reinforcement. 
+**Civil Calculation Space** is a professional-grade engineering application designed for civil and structural engineers. It provides a comprehensive suite of tools for calculating building material quantities and specifying structural reinforcement. 
 
 Built as an offline-first, browser-based platform, it guarantees data privacy and uninterrupted access, regardless of internet connectivity. Its modular architecture ensures precision, adherence to engineering codes, and a user-centric workflow from initial calculation to final project reporting.
 
@@ -27,7 +27,7 @@ The application is built on a philosophy of **precision, reliability, and effici
 
 ## 3. Development Roadmap: Version 1.0 (Complete)
 
-The initial development plan for **Civil Calculation World** is now feature-complete. The application provides a robust, offline-capable, and private toolkit for professional engineers. 
+The initial development plan for **Civil Calculation Space** is now feature-complete. The application provides a robust, offline-capable, and private toolkit for professional engineers. 
 
 ### Phase 1-10: Foundation and Features (Complete)
 - **[✓]** Established a responsive global layout and a comprehensive library of reusable UI components.
@@ -43,7 +43,7 @@ The initial development plan for **Civil Calculation World** is now feature-comp
 
 ---
 
-## 4. Roadmap: CivilCalc World v2.0 - Professional & Reliability Enhancements
+## 4. Roadmap: Civil Calculation Space v2.0 - Professional & Reliability Enhancements
 
 The following phases outline the strategic evolution of the application to a world-class standard, focusing on code quality, user experience, and verifiable accuracy to ensure expert engineers can rely on it with confidence.
 
